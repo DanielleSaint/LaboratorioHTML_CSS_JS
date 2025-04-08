@@ -1,0 +1,104 @@
+/*Crea un archivo styles.css para:
+•Dar estilo al body (fuente, color de fondo, márgenes).
+•Diseñar el header (color de fondo, centrado).
+•Estilizar los enlaces del menú (color, sin subrayado).
+•Dar formato al botón (color, padding, cursor).*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Merienda", cursive;
+    background-color: rgb(187, 236, 255);
+    margin: 30px;
+    padding: 15px;
+}
+header{
+    background-color: rgb(132, 220, 255);
+    width: 500px;
+    margin: auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#nombre{
+    text-align: center;
+    background-color: rgb(202, 180, 228);
+    color: blueviolet;
+}
+#navegacion-bar{
+    color: blueviolet;
+}
+#sobre-mi{
+    margin: 80px 20px 20px 30px;
+    padding: 20px;
+    background-color: rgb(132, 220, 255);
+    width: 1000px;
+}
+.box-sobre-mi{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+h2{
+    color: blueviolet;
+    padding: 5px;
+    width: 200px;
+}
+figure{
+    padding: 10px;
+    background-color: rgb(202, 180, 228);
+}
+img{
+    height: 100px;
+    border-radius: 50px;
+}
+p{
+    padding: 5px;
+    width: 800px;
+    background-color: rgb(202, 180, 228);
+}
+#hobbies{
+    margin: 40px 20px 20px 30px;
+    padding: 20px;
+    background-color: rgb(132, 220, 255);
+    width: 1000px;
+}
+#contacto{
+    margin: 40px 20px 20px 30px;
+    padding: 20px;
+    background-color: rgb(132, 220, 255);
+    width: 1000px;
+}
+#formulario{
+    margin: 10px;
+    background-color: rgb(202, 180, 228);
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+}
+#boton-enviar{
+    margin: 10px;
+    background-color: blueviolet;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+}
+footer{
+    margin: 40px 20px 20px 30px;
+    padding: 20px;
+    background-color: rgb(132, 220, 255);
+    width: 1000px;
+    text-align: center;
+}
